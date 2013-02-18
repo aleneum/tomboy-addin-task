@@ -2,7 +2,7 @@ TomboyTask
 ==========
 
 Collects your tasks from all your Tomboy notes which comes in handy when you use Tomboy for Getting Things Done (GTD).
-Support contexts and ignores done tasks.
+Supports contexts and ignores done tasks.
 
 * status: 0.1.0 (alpha)
 * tested with: Ubuntu 12.04 12.10
