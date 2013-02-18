@@ -43,6 +43,7 @@ Change into the source directory and execute:
 
 The dll has to be copied into the addin directory of tomboy.  
 Under Linux:  
+
 	cp TomboyTask.dll ~/.config/tomboy/addins/
 
 More info: https://live.gnome.org/Tomboy/PluginList
