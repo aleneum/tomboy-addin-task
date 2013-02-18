@@ -1,5 +1,5 @@
-Usage
------
+TomboyTask
+==========
 
 Collects your tasks from all your Tomboy notes which comes in handy when you use Tomboy for Getting Things Done (GTD).
 Support contexts and ignores done tasks.
