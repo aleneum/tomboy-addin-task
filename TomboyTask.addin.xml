@@ -1,0 +1,21 @@
+<Addin id="TomboyTask"
+	namespace="Tomboy"
+	name="TomboyTask"
+	author="Tomboy Project"
+	description="Collects all @Tasks in some neat lists."
+	category="Tools"
+	defaultEnabled="false"
+	version="0.1">
+
+	<Runtime>
+		<Import assembly="TomboyTask.dll" />
+	</Runtime>
+
+	<Dependencies>
+		<Addin id="Tomboy" version="0.10" />
+	</Dependencies>
+
+	<Extension path="/Tomboy/NoteAddins">
+		<NoteAddin type="Tomboy.TomboyTask.TomboyTaskNoteAddin" />
+	</Extension>
+</Addin>
