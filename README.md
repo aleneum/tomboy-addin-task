@@ -36,13 +36,12 @@ Use Contexts
 
 Installation Instructions
 -------------------------
-
+### Linux 
 Change into the source directory and execute:  
 
 	dmcs -debug -out:TomboyTask.dll -target:library TomboyTaskNoteAddin.cs -res:TomboyTask.addin.xml -pkg:gtk-sharp-2.0,tomboy-addins -r:/usr/lib/mono/4.0/Mono.Posix.dll
 
 The dll has to be copied into the addin directory of tomboy.  
-Under Linux:  
 
 	cp TomboyTask.dll ~/.config/tomboy/addins/
 
