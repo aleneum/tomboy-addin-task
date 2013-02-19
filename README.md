@@ -20,7 +20,7 @@ Mark and Collect Tasks
 
 One Task per Note
 -----------------
-* TomboyTask ignores tasks your striked out.  
+* TomboyTask ignores tasks you striked out.  
 ![list of tasks](img/ttask04.png)  
 * if your note contains more than one task only the first not finished task is shown.  
 ![gtd list](img/ttask05.png)
