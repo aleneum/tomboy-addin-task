@@ -5,7 +5,7 @@
 	description="Collects all @Tasks in some neat lists."
 	category="Tools"
 	defaultEnabled="false"
-	version="0.1">
+	version="0.1a">
 
 	<Runtime>
 		<Import assembly="TomboyTask.dll" />

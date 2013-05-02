@@ -59,9 +59,13 @@ namespace Tomboy.TomboyTask
 					if (line.Contains("<strikethrough>")) continue;
 					int idx = line.IndexOf("@Task");
 					if (idx < 0) continue;
+					Regex rgx = new Regex("<[^>]*>");	
+					task = rgx.Replace(line,"");
+					idx = task.IndexOf("@Task");
+					//Console.WriteLine(task);
 					bool has_cat = false;
 //					DateTime dateTime = null;
-					string cats = line.Substring(idx,line.Length-idx);
+					string cats = task.Substring(idx,task.Length-idx);
 					foreach(string cat in categories) {
 //						if (DateTime.TryParse(input, out dateTime)) {
 //							
@@ -69,9 +73,7 @@ namespace Tomboy.TomboyTask
 						if (cats.Contains(cat)) has_cat = true;
 					}
 					if (!has_cat) continue;
-					task = line.Substring(0,idx-1);
-					Regex rgx = new Regex("<[^>]*>");
-					task = rgx.Replace(task,"");
+					task = task.Substring(0,idx-1);
 					break;
 				}
 				if (task.Length < 1) continue;
