@@ -4,8 +4,8 @@ TomboyTask
 Collects your tasks from all your Tomboy notes which comes in handy when you use Tomboy for Getting Things Done (GTD).
 Supports contexts and ignores done tasks.
 
-* status: 0.1.0 (alpha)
-* tested with: Ubuntu 12.04 12.10
+* status: 0.1.1 (alpha)
+* tested with: Ubuntu 12.04 12.10 13.04
 * requires: tomboy libgtk2.0-cil-dev libmono-posix4.0-cil
 
 Mark and Collect Tasks
