@@ -72,7 +72,8 @@ namespace Tomboy.TomboyTask
 //						}
 						if (cats.Contains(cat)) has_cat = true;
 					}
-					if (!has_cat) continue;
+					//Console.WriteLine(has_cat);
+					if (!has_cat) break;
 					task = task.Substring(0,idx-1);
 					break;
 				}
